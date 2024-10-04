@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhishri's blog</title>
+    <atom:link href="joshiabhishri.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>joshiabhishri.com</link>
+    <description>I love writting efficinet code </description>
+    <pubDate>Thu, 12 Sep 2024 15:00:00 +0000</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Car Hacking [I just wanted to turn the damm light's on]</title>
+      <link>joshiabhishri.com/articles/canbus/</link>
+      <pubDate>Thu, 12 Sep 2024 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/canbus/</guid>
+      <author></author>
+      <description>&lt;p&gt;It all started with me trying to turn on the external light’s of my car when i turn on lowbeam light’s without tampering with any wires&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+So i started sniffing the data from can bus, Soon enough i realised if i send the any data with low arbitration id i can make the car excute my data bytes as lower id get’s priority.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/canbus/Can.jpeg&quot; alt=&quot;CanSniffer&quot;&gt;
+What i am able to acheive ?&lt;/p&gt;
+&lt;p&gt;Fix the damm ACC !(The Adaptive cruise control is too agrasive, it accelarate the car too quickly by default)&lt;/p&gt;
+&lt;p&gt;Remove the god damm disclaimer. (I don’t understand why the fuck i have to click okay everytime i turn on my car.)&lt;/p&gt;
+&lt;p&gt;Turn on my external light’s.(Yes this is the last thing i did)&lt;/p&gt;
+&lt;p&gt;Working on &lt;/p&gt;
+&lt;p&gt;Also able to steer with my laptop. (I am working on making it work completely with openpiolot)&lt;/p&gt;
+&lt;p&gt;Get the stream from adas camera.&lt;/p&gt;
+&lt;p&gt;Other stuff i forgot :(&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/canbus/milage.jpeg&quot; alt=&quot;milage&quot;&gt; &lt;/p&gt;
+&lt;p&gt;After setting up the acc. My car’s milage also increased.&lt;/p&gt;
+&lt;p&gt;Device used ?
+Nothing crazy, cheap &lt;/p&gt;
+&lt;p&gt;-Arduino uno&lt;/p&gt;
+&lt;p&gt;-Mcp5215 &lt;/p&gt;
+&lt;p&gt;-obd2 male plug (Just to make it look nice)&lt;/p&gt;
+&lt;p&gt;Oh i am doing all this on honda elevate top varient .&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Home Server</title>
+      <link>joshiabhishri.com/articles/homeserver/</link>
+      <pubDate>Sat, 10  Aug 2024 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/homeserver/</guid>
+      <author></author>
+      <description>&lt;p&gt;I run many life improving services on my home server’s.
+This list will be updated as i add new service (Simple script to pick up new stuff and add it. Don’t worry it ask’s me if i wanna push it)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;img src=&quot;/articles/homeserver/Server.jpeg&quot; alt=&quot;Server&quot;&gt;&lt;/p&gt;
+&lt;p&gt;-Jellyfin (Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.)&lt;/p&gt;
+&lt;p&gt;-NextCloud (Nextcloud is an open source, self-hosted file share and communication platform.)&lt;/p&gt;
+&lt;p&gt;-Radarr (See all your upcoming movies in one convenient location. Manual Search Find all the releases, choose the one you want and send it right to your download client.)&lt;/p&gt;
+&lt;p&gt;-Sonarr (Like radarr but for tv series)&lt;/p&gt;
+&lt;p&gt;-Transmission( Torrent client)&lt;/p&gt;
+&lt;p&gt;-JackettAPI Support for your favorite torrent trackers )&lt;/p&gt;
+&lt;p&gt;-HomeBridge (Homebridge allows you to integrate with smart home devices that do not natively support HomeKit)&lt;/p&gt;
+&lt;p&gt;-TailScale(Vpn mesh)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Ai Pin</title>
+      <link>joshiabhishri.com/articles/aipin/</link>
+      <pubDate>Fri, 29 Dec 2023 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/aipin/</guid>
+      <author></author>
+      <description>&lt;p&gt;No thanks, I will just prefer to put my phone in my front pocket, what a fucking retard!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Realisation after going to NGO</title>
+      <link>joshiabhishri.com/articles/ngo/</link>
+      <pubDate>Sun, 29 Oct 2023 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/ngo/</guid>
+      <author></author>
+      <description>&lt;p&gt;Some time’s no amount of health care is good enough,You need love.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Call for a New Era</title>
+      <link>joshiabhishri.com/articles/call/</link>
+      <pubDate>Fri, 06 Jan 2023 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/call/</guid>
+      <author></author>
+      <description>&lt;p&gt;We have to provide food and shelter for the homeless…&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+And oppose racial discrimination and promote civil rights, while also promoting equal rights for women. We have to encourage a return to traditional moral values. Most importantly, we must promote general social concern… and less materialism in young people.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Drive with her</title>
+      <link>joshiabhishri.com/articles/drive/</link>
+      <pubDate>Sun, 02 Jan 2022 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">joshiabhishri.com/articles/drive/</guid>
+      <author></author>
+      <description>&lt;p&gt;Drive slow &amp;gt;why&amp;gt; &amp;gt;I don’t want this time to end.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
